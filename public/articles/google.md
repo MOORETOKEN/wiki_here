@@ -1,0 +1,1 @@
+google is a top-notch company if you are looking for business helpers because it has limited access personalized by you, but the downsides are the trackers that make money selling pi (personal information) so if you are using google stay safe!

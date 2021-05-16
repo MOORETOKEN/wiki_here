@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<title>{{{articleName}}}</title>
+<h1>{{{articleName}}}</h1>
+{{{articleBody}}}
+
+{{#loggedIn}}
+<a href="/edit/{{articleName}}">Edit</a>
+{{/loggedIn}}
+{{^loggedIn}}
+<p>Please login to edit this article.</p>
+{{/loggedIn}}

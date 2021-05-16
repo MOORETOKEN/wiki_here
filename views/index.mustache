@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<body>
+<input type="text" id="view-article-name" placeholder="Article Name" autocomplete="off"/>
+<input type="button" id="view-article-btn" value="View Article"/>
+<br> <br>
+
+{{#signed_in}}
+<input type="text" id="edit-article-name" placeholder="Article Name" autocomplete="off"/>
+<input type="button" id="edit-article-btn" value="Edit Article"/> 
+<br> <br>
+{{/signed_in}}
+{{^signed_in}}
+<a href="/login">Login</a><br><br>
+{{/signed_in}}
+<a href="/index">Index of articles</a>
+
+<script>
+  document.getElementById('view-article-btn').onclick = e => {
+    location.href = '/article/'+document.getElementById('view-article-name').value
+  }
+	{{#signed_in}}
+  document.getElementById('edit-article-btn').onclick = e => {
+    location.href = '/edit/'+document.getElementById('edit-article-name').value
+  }
+	{{/signed_in}}
+</script>
+<style>
+input {
+  border-radius: 50px;
+  border-width: 5px;
+}
+body {
+  text-align: center;
+}
+</style>
+</body>

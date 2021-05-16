@@ -1,0 +1,1 @@
+FreakySkeleBone is a trash coder and a repl user that steals wikipedia articles, and makes a joke on a fake wikipedia during history class

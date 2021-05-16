@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<title>Editing {{articleName}}</title>
+{{{newPageMsg}}}
+<h1>Edit "{{articleName}}"</h1>
+<form id="edit-form" method="POST" action="./submit">
+  <input type="hidden" value="{{articleName}}" name="articleName"/>
+  <textarea for="edit-form" name="articleContent" style="margin: 0px; width: 1011px; height: 613px;">{{articleContent}}</textarea> <br>
+  <input type="submit" value="Submit your changes"/>
+</form>

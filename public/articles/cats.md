@@ -1,0 +1,1 @@
+Cats are dumb, funny, and having them are like hiring a mini batman to run around your house
